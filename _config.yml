@@ -1,9 +1,9 @@
 # Site settings
-title: PHOTORAMA
+title: Steve's Pictures
 email: ""
 description: "Photo Journal"
-url: "https://sunbliss.github.io"
-baseurl: "/photorama"
+url: "https://www.stevegamble.com"
+baseurl: "/gallery"
 facebook_username: ""
 twitter_username: ""
 instagram_username: ""
@@ -27,15 +27,15 @@ owner:
 # Disable comments for individual pages/posts by specifying 'comments: false' in the page/post YAML Front Matter.
 #
 comments :
-  provider : disqus
+  provider : false
   disqus :
     short_name : ""
 
 # Internal nav
 nav:
-  - GALLERY: "https://sunbliss.github.io/photorama/gallery/"  
-  - JOURNAL: "https://sunbliss.github.io/photorama/journal/"
-  - ABOUT: "https://sunbliss.github.io/photorama/about/"
+  - GALLERY: "./gallery/"  
+  - JOURNAL: "./journal/"
+  - ABOUT: "./about/"
 
 # All translation keys
 translations:
