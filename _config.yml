@@ -3,7 +3,7 @@ title: Steve's Pictures
 email: "steve@stevegamble.com"
 description: "Photo Journal"
 url: "https://www.stevegamble.com"
-baseurl: ""
+baseurl: "/gallery"
 facebook_username: "steve.gamble.900"
 #twitter_username: ""
 instagram_username: "a_stevegamble"
