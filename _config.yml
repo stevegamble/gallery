@@ -1,24 +1,40 @@
 # Site settings
 title: Steve's Pictures
-email: ""
+email: "steve@stevegamble.com"
 description: "Photo Journal"
 url: "https://www.stevegamble.com"
-baseurl: "/gallery"
-facebook_username: ""
-twitter_username: ""
-instagram_username: ""
-github_username:  ""
-deviantart_username: ""
-flickr_username: ""
-discus_shortname: ""
+baseurl: ""
+facebook_username: "steve.gamble.900"
+#twitter_username: ""
+instagram_username: "a_stevegamble"
+github_username:  "stevegamble"
+#deviantart_username: ""
+#flickr_username: ""
+#discus_shortname: ""
+strava_username: "stevegamble"
+linkedin_username: "stevegamble"
 share: true
 
 # Owner/author information
 owner:
-  name:   photorama
+  name:   Steve Gamble
   avatar: avatar.png
   favicon: favicon.ico
   info: photography website template
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
 
 # Settings for comments helper
 # Set 'provider' to the comment provider you want to use. (i.e.  Disqus, Intense Debate, livefyre, or Facebook Comments)
@@ -33,9 +49,10 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "./gallery/"  
-  - JOURNAL: "./journal/"
-  - ABOUT: "./about/"
+  - HOME: "/"
+  - GALLERY: "/gallery/"  
+#  - JOURNAL: "/journal/"
+#  - ABOUT: "/about/"
 
 # All translation keys
 translations:

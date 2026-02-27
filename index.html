@@ -1,8 +1,8 @@
 ---
 layout: home
-main-title: "PHOT&#8226;O&#8226;RAMA"
+main-title: "Steve Gamble"
 subtitle: "Photo Journal"
-description: "Photography and more"
+description: "Things I Sometimes See"
 images:
  - image_path: /img/slider/home01.jpg
    gallery-folder: /img/slider/
@@ -18,7 +18,8 @@ images:
 	<meta content="charset=utf-8">
 
 <!-- CSS -->
-     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+     <!-- link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" -->
+<link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.0.0/css/all.min.css">
      <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css" type="text/css" media="screen" />
       <link rel="stylesheet" href="{{ site.baseurl }}/css/galleries.css" media="screen" />
 <link rel="stylesheet" href="{{ site.baseurl }}/css/WYSIWYG.css" media="screen" />
@@ -82,52 +83,72 @@ images:
 			<li>
    <a href="https://facebook.com/{{ site.facebook_username }}" style="
 color:#dddddd; target="_blank" title="Facebook">
-                       <i class="fa fa-facebook"></i>
-                     </span>
+                       <i class="fa-brands fa-facebook"></i>
 </a></li>
     {% endif %}
+
+
  {% if site.twitter_username %}
 			<li>
    <a href="https://twitter.com/{{ site.twitter_username }}" style="
 color:#dddddd; target="_blank" title="Twitter">
-                       <i class="fa fa-twitter"></i>
-                     </span>
+                       <i class="fa-brands fa-twitter"></i>
 </a></li>
     {% endif %}
+
+
                 {% if site.instagram_username %}
 			<li>
    <a href="https://instagram.com/{{ site.instagram_username }}" style="
 color:#dddddd; target="_blank" title="Instagram">
-                       <i class="fa fa-instagram"></i>
-                     </span>
+                       <i class="fa-brands fa-instagram"></i>
 </a></li>
     {% endif %}
+
+
                     {% if site.flickr_username %}
 						<li>
    <a href="https://flickr.com/photos/{{ site.flickr_username }}" style="
 color:#dddddd; target="_blank" title="Flickr">
-              <i class="fa fa-flickr"></i>
-                     </span>
+              <i class="fa-brands fa-flickr"></i>
  </a></li>	
      {% endif %}
+
                     {% if site.deviantart_username %}
 			<li>
    <a href="http://{{ site.deviantart_username }}.deviantart.com" style="
 color:#dddddd; target="_blank" title="DeviantArt">
-<i class="fa fa-deviantart"></i> </span>
+<i class="fa-brands fa-deviantart"></i>
 </a></li>	
     {% endif %}
+
                     {% if site.github_username %}
                 <li>
    <a href="https://github.com/{{ site.github_username }}" style="
 color:#dddddd; target="_blank" title="Github">
-              <i class="fa fa-github"></i>
-                     </span>
+              <i class="fa-brands fa-github"></i>
+</a></li>	
                    {% endif %}
+
+                    {% if site.linkedin_username %}
+                <li>
+   <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" style="
+color:#dddddd; target="_blank" title="LinkedIn">
+              <i class="fa-brands fa-linkedin"></i>
+</a></li>	
+                   {% endif %}
+                    {% if site.strava_username %}
+                <li>
+   <a href="https://www.strava.com/athletes/{{ site.strava_username }}" style="
+color:#dddddd; target="_blank" title="Strava">
+              <i class="fa-brands fa-strava"></i>
+</a></li>	
+                   {% endif %}
+
 <li>
     <a href="mailto:{{ site.email }}" style="
 color:#dddddd; target="_blank" title="Email">
-              <i class="fa fa-envelope-o"></i></span>
+              <i class="fa-regular fa-envelope"></i>
           </a> </li>
 	
 					
