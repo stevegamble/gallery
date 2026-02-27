@@ -49,8 +49,8 @@ comments :
 
 # Internal nav
 nav:
-  - HOME: "/"
-  - GALLERY: "/gallery/"  
+  - HOME: "/gallery"
+  - GALLERY: "/gallery/gallery"  
 #  - JOURNAL: "/journal/"
 #  - ABOUT: "/about/"
 
